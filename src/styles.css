@@ -1,0 +1,43 @@
+body {
+  font-family: Garamond;
+}
+h2.header {
+  font-style: italic;
+}
+table#menu-table {
+  text-align: left;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: gainsboro;
+}
+th {
+  background-color: bisque;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+div.menu-layout {
+  text-align: center;
+  width: 740px;
+  margin: auto;
+}
+div.comment {
+  display: flex;
+}
+div.comment-rating {
+  flex: 0.5;
+  text-align: center;
+  padding: 1em;
+}
+div.comment-text {
+  flex: 0.5;
+  text-align: center;
+  padding: 1em;
+}
+button.element-removal {
+  flex: 0.5;
+  text-align: center;
+  padding: 1em;
+  visibility: hidden;
+}
